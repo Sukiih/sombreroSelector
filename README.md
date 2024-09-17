@@ -44,7 +44,7 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](https://github.com/Sukiih/sombreroSelector/blob/main/license) para más detalles.
 
 ## Contacto
 
