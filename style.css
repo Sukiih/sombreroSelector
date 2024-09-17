@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-image: url('https://img.freepik.com/vector-premium/programacion-desarrolladores-vector-patrones-fisuras-e-internet-codificacion_341076-444.jpg');
+    backdrop-filter: blur(2px);
+}
+
+#sombrero {
+    width: 300px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+p {
+    font-weight: 600;
+    font-style: italic;
+}
+
+#name{
+    margin: 20px 0 20px 0;
+}
+
+#start-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4c5eaf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #2e3968;
+}
+
+#question-container {
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1f5077;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13324b;
+}
+
+#restart-button {
+    background-color: #c53037;
+}
+
+#restart-button:hover {
+    background-color: #fc2731;
+}
+
+#result-container {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#start-screen, #question-container, #result-container {
+    display: none;
+}
+
+#start-screen {
+    display: block; 
+}
+
+@media (max-width: 600px) {
+    #sombrero {
+        width: 80%;
+    }
+}
